@@ -1,0 +1,24 @@
+.container{
+    min-width: 20%;
+    height: 20rem;
+    padding: 0 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black; 
+    display: grid;
+    align-items: center;
+}
+.container .heading {
+    text-align: center;
+    font-weight: 700;
+    color: inherit;
+    font-size: 2rem;
+}
+.signinlink, .loginlink{
+    font-size: 1.1rem;
+}
+.signinlink > a, .loginlink > a{
+    font-size: 1.6rem;
+    color: purple;
+    text-decoration: none;
+}
